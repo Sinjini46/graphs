@@ -9,7 +9,7 @@ app = Flask(__name__)
 @app.route('/')
 def index():
     # Load your JSON data
-    with open('eve.json', 'r') as file:
+    with open('D:\web development\dashboard\eve.json', 'r') as file:
         data = [json.loads(line) for line in file]
 
     # Convert to DataFrame
