@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <style>
+        body {
+            background-color: #2c2c2c;
+            color: #ffffff;
+        }
+        .plot {
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Dashboard</h1>
+    <div class="plot">{{ plot1 | safe }}</div>
+    <div class="plot">{{ plot2 | safe }}</div>
+    <div class="plot">{{ plot3 | safe }}</div>
+</body>
+</html>
